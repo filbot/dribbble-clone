@@ -1,0 +1,21 @@
+<div class="thumbnail-container" ng-controller="MainCtrl">
+
+
+  <ul class="thumbnails">
+    <li class="span4" data-ng-repeat="shot in shots" mydirective="">
+      <div class="thumbnail">
+
+
+        <div class="shot-container">
+          <img class="lazy framed" src="images/escheresque.png" data-original="{{shot.image_url}}" width="292" height="219">
+          <!-- <div class="flex-container"> -->
+            <!-- <div><i class="icon-like"> {{shot.likes_count}}</i></div> -->
+            <!-- <div> {{shot.comments_count}}</div> -->
+          <!-- </div> -->
+        </div>
+
+      </div>
+    </li>
+  </ul>
+
+</div>
